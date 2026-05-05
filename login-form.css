@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+}
+form{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #1c1916;
+}
+
+label{
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 12px;
+    font-weight: 500px;
+}
+.second-one-line-feild{
+    display: flex;
+    gap: 10px;
+}
+.guest{
+    margin-bottom: 20px;
+}
+.guest-occassion{
+    display: flex;
+    gap: 10px;
+}
+.email-pass input{
+    width:530px ;
+}
+select{
+    width: 272px;
+    padding: 10px;
+    color: white;
+    background-color: #1c1916;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* height: 40px; */
+}
+h1{
+    color: #ff990f;
+    text-align: center;
+    margin:40px 0;
+}
+
+input{
+    width:   250px;
+    padding: 10px;
+    color: white;
+    background-color: #1c1916;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.one-line-feild{
+    display: flex;
+    gap: 10px;
+
+}
+
+.special input{
+    width: 530px;
+}
+
+button{
+    width: 530px;
+    padding: 10px;
+    word-spacing: 5px;
+    background-color: #ff990f;
+    border-radius: 15px;
+}
