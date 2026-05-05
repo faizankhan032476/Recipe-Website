@@ -29,10 +29,6 @@ ul{
     width: 35px;
     height: 30px;
 }
-.logo img{
-    width: 100%;
-    height: 100%;
-}
 .right-nav{
     margin-left: auto;
     display: flex;
